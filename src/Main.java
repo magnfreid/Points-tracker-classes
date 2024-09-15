@@ -73,7 +73,7 @@ public class Main {
         System.out.println("List cleared...");
     }
 
-    //TODO adjust to new Player class
+   
     private static void printAverageScore(ArrayList<Player> players) {
         if (!players.isEmpty()) {
             int totalScore = 0;
@@ -87,7 +87,7 @@ public class Main {
         }
     }
 
-    //TODO adjust to new Player class
+    
     private static void printHighScore(ArrayList<Player> players) {
         int highScore = 0;
         String recordPlayer = "";
