@@ -67,7 +67,6 @@ public class Main {
         }
     }
 
-    //TODO adjust to new Player class
     private static void clearScoreList(ArrayList<Player> players) {
         players.clear();
         System.out.println("List cleared...");
