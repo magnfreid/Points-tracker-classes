@@ -14,7 +14,7 @@ public class Main {
                 "2. Show all players",
                 "3. Show highest score",
                 "4. Show average score",
-                "5. Clear list",
+                "5. Delete all players",
                 "6. Exit"};
         while (running) {
             int playerCount = players.size();
@@ -39,7 +39,7 @@ public class Main {
                         break;
                     }
                     case "5": {
-                       clearScoreList(players);
+                       deleteAllPlayers(players);
                         break;
                     }
                     case "6": {
@@ -67,9 +67,9 @@ public class Main {
         }
     }
 
-    private static void clearScoreList(ArrayList<Player> players) {
+    private static void deleteAllPlayers(ArrayList<Player> players) {
         players.clear();
-        System.out.println("List cleared...");
+        System.out.println("All players deleted...");
     }
 
    
