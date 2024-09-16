@@ -10,15 +10,15 @@ public class Player {
         score = 0;
     }
 
-    Player(String name, int score) {
+   /* Player(String name, int score) {
         this.name = name;
         this.score = score;
-    }
+    }*/
 
-    Player(String name) {
+    /*Player(String name) {
         this.name = name;
         score = 0;
-    }
+    }*/
 
     public String getName() {
         return name;
@@ -42,7 +42,7 @@ public class Player {
 
 
     public String toString() {
-        return "***** \nPlayer:" +
+        return "\n***** \nPlayer:" +
                 "\nName: " + name +
                 "\nScore:" + score;
     }
