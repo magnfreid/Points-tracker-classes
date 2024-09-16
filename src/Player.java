@@ -33,6 +33,9 @@ public class Player {
     }
 
     public void setScore(int score) {
+        if (score<0) {
+            score = 0;
+        }
         this.score = score;
     }
 
