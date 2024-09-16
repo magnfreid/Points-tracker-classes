@@ -114,7 +114,7 @@ public class Main {
                 newPlayer.setName(scanner.nextLine());
                 validInput = true;
             } catch (InputMismatchException e) {
-                System.out.println("Felaktigt namn, försök igen!");
+                System.out.println("Incorrect input of name, try again!");
                 scanner.nextLine();
             }
         }
@@ -125,7 +125,7 @@ public class Main {
                 newPlayer.setScore(scanner.nextInt());
                 validInput = true;
             } catch (InputMismatchException e) {
-                System.out.println("Felaktig poäng, försök igen!");
+                System.out.println("Incorrect input of score, try again!");
                 scanner.nextLine();
             }
         }
